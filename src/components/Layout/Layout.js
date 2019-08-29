@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-import Aux from '../../hoc/Aux';
+import Auxillary from '../../hoc/Auxillary';
 
 class Layout extends Component {
     render() {
         return (
-            <Aux>
+            <Auxillary>
             <div>Toolbar, sidebar, Build tool</div>
             <div>{this.props.children}</div>
-            </Aux>
+            </Auxillary>
         );
     }
 }
